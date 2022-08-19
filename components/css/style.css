@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+}
+.container__img{
+    width: 50%;
+}
+.container__right{
+    width: 50%;
+}
+
+.main__header{
+    padding: 1.4rem;
+    text-align: end;
+    margin-bottom: 7rem;
+}
+.header__links{
+    text-decoration: none;
+    color: black;
+
+}
+
+.header__links + .header__links{
+    margin-left: 1rem;
+}
+
+.container__right__home{
+    padding: 3.75em;
+}
+
+.home__title{
+    font-size: 3.36rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.home__text{
+    font-size: 1.2rem;
+    opacity: 60%;
+    margin-bottom: 4rem;
+    font-weight: 400;
+}
+
+.home__button{
+    width: 9rem;
+    margin-left: 1rem;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.home__button.-bgwhite{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
