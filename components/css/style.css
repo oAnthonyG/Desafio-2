@@ -117,8 +117,16 @@
         margin-bottom: 1.4rem;
     }
 }
-@media screen and (max-width:380px){
+@media screen and (max-width:440px){
     .header__links + .header__links{
-        margin-left: 0.6rem;
+        margin-left: 0.1rem;
+    }
+}
+
+@media screen and (max-width:343px){
+    .main__header{
+        width: 100%;
+        margin: 0;
+        padding: 1.4rem 0 4rem 0;
     }
 }
