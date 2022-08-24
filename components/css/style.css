@@ -59,6 +59,9 @@
 
 
 @media screen and (max-width:900px){
+    .header__links + .header__links{
+        margin-left: 2rem;
+    }
     .container__img{
         height: 100vh;
     }
@@ -105,5 +108,10 @@
     .home__button{
         width: 90%;
         margin-bottom: 1.4rem;
+    }
+}
+@media screen and (max-width:380px){
+    .header__links + .header__links{
+        margin-left: 0.6rem;
     }
 }
