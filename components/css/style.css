@@ -16,7 +16,14 @@
 .header__links{
     text-decoration: none;
     color: black;
-
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    transition: all 400ms ease-in-out;
+}
+.header__links:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: black;
 }
 
 .header__links + .header__links{
